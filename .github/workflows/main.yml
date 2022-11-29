@@ -3,7 +3,7 @@ name: main
 on:
     workflow_dispatch:
     schedule:
-        - cron: "8 1,6 * * *"
+        - cron: "0 15 7 ? * *"
     watch:
         types: [started]
 
